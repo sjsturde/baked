@@ -1,39 +1,37 @@
 
-var cur_time = new Date();
 var back_logo = document.querySelector(".main--landing");
+var menu_big = document.querySelector(".menu--menu-item");
+
 const checkpoint = 300;
 
-/*
-window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-    if (currentScroll <= checkpoint) {
-        opacity = 1 - currentScroll / checkpoint;
-    } else {
-        opacity = .25;
-        back_logo.classList.add("hidden");
-    }
-    back_logo.style.opacity = opacity;
-    //console.log(back_logo.style.opacity);
-    //console.log(currentScroll);
-});
-*/
-var item_opacity = 100;
-var inter = window.getComputedStyle(back_logo).getPropertyValue("opacity");
-
-function item_fade() {
-    console.log("0");
-    console.log(inter);
-    for (var i = 1; item_opacity > i; i++) {
-        console.log(inter);
-        if (inter > .25) {
-            inter = inter - .01;
-            back_logo.setAttribute("opacity", inter);
-            console.log.back_logo.
-        }
-        else {
-            back_logo.classList.add("hidden");
-        }
-    }
+function item_fading() {
+    back_logo.classList.add("hidding");
 }
-back_logo.classList.remove("hidden");
-item_fade();
+
+function item_faded() {
+    back_logo.classList.add("hidden");
+}
+console.log("one");
+back_logo.classList.remove("hidding");
+setTimeout(function () {
+    item_fading();
+}, 1500);
+
+console.log("Two");
+
+///gallery transform
+var gallery_contents = document.querySelectorAll(".gallery--content-item");
+var featured = document.getElementById("main--gallery-highlighted");
+
+for (i = 0; i < gallery_contents.length; i++) {
+    var gallery_content = gallery_contents[i];
+    gallery_content.addEventListener("mouseover", function (e) {
+        highlight_event(e.currentTarget);
+    })
+}
+
+
+function highlight_event(eventTarget) {
+    featured.innerHTML = eventTarget.innerHTML;
+
+}

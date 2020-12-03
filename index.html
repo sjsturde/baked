@@ -4,6 +4,7 @@
     <title>Baked! of Bloomington</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='css/baked.css'>
+    <meta charset="UTF-8">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
                 <div class="navbar--item ">
                     <div class="navbar--item--inner ">
                         <div class="navbar--item-border "></div>
-                        <div class="item--title ">
+                        <div class="item--title " onclick="location.href='merch.html';">
                             merch
                         </div>
                     </div>
@@ -52,10 +53,80 @@
         </div>
     </header>
     <main>
-        <div class="main--background">
+        <div class=" main--background">
             <div class="main--landing"> who wants to get<img class="logo--landing " src="images/baked_icon.svg" />
             </div>
-            <div class="main--paragraph">
+            <div class="main--gallery">
+                <div class="main--gallery-highlighted" id="main--gallery-highlighted">
+                    <div class="gallery--highlighted-image" style="background-image: url(images/holidays.jpg)">
+                    </div>
+                    <div class="gallery--highlighted-copy">
+                        <div class="gallery--highlighted-header">
+                            Holiday Break Hours
+                        </div>
+                        <div class="gallery--highlighted-text">
+                            12pm to 12am everyday
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main--gallery-content">
+                    <div class="gallery--content-item">
+                        <div class="gallery--highlighted-image" style="background-image: url(images/holidays.jpg)">
+                        </div>
+                        <div class="gallery--highlighted-copy">
+                            <div class="gallery--highlighted-header">
+                                Holiday Break Hours
+                            </div>
+                            <div class="gallery--highlighted-text">
+                                12pm to 12am everyday
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery--content-item">
+                        <div class="gallery--highlighted-image" style="background-image: url(images/baked_icon.svg)">
+                        </div>
+                        <div class="gallery--highlighted-copy">
+                            <div class="gallery--highlighted-header">
+                                Looking for a Job
+                            </div>
+                            <div class="gallery--highlighted-text">
+                                Applications can now be found online. Follow the link and <a
+                                    href="https://forms.gle/Yxp2sVwu9Bn1gw756" target="_blank">Apply Now!!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery--content-item">
+                        <div class="gallery--highlighted-image" style="background-image: url(images/delivery.PNG)">
+                        </div>
+                        <div class="gallery--highlighted-copy">
+                            <div class="gallery--highlighted-header">
+                                Online Delivery
+                            </div>
+                            <div class="gallery--highlighted-text">
+                                You can now order Baked! online at <a
+                                    href='https://www.delivery.com/cities/bloomington-in/categories/restaurant/baked-of-bloomington'
+                                    target="_blank">Delivery.com</a>.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery--content-item">
+                        <div class="gallery--highlighted-image" style="background-image: url(images/pizza_x.png)">
+                        </div>
+                        <div class="gallery--highlighted-copy">
+                            <div class="gallery--highlighted-header">
+                                Pizza X
+                            </div>
+                            <div class="gallery--highlighted-text">
+                                We've partnered with <a href='https://www.pizzaxbloomington.com/' target="_blank">Pizza
+                                    X</a> You can order from any Pizza X location and have it delivered to you!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="main--paragraph">
                 <div class="main--paragraph-sec">
                     This will be Instagram
                 </div>
@@ -83,7 +154,8 @@
                     You can now order Baked! online at <a href=https://www.delivery.com/'
                         target="_blank">Delivery.com</a>.
                     We
-                    are still accepting call in ordres for regular deliveries, caked, and orders being sent to someone
+                    are still accepting call in ordres for regular deliveries, caked, and orders being
+                    sent to someone
                     else.
                     <br>
                     <img src="http://www.bakedofbloomington.com/images/delivery.PNG" class="pic">
@@ -121,7 +193,7 @@
                 <span id='home_descrip'> Stay well, stay local, stay Baked!</span></p>
 
             </div>
-            <!-- <p>
+            <p>
         Welcome to Baked! of Bloomington dot com! If you've never heard of us before, definitely check out the
         FAQ's page, because, as you'll quickly find out, Baked! is a store which you probably have never seen or
         heard the likes of before.</p>

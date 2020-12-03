@@ -3,79 +3,93 @@
 <head>
 	<title>Contact us</title>
 	<link rel='stylesheet' href='css/baked.css'>
+	<link rel='stylesheet' href='css/contact.css'>
+	<meta charset="UTF-8">
 </head>
 
 <body>
-	<div class="navbar--container">
-		<div class="navbar--inner-wrapper">
-			<div class=" navbar--item ">
-				<div class="navbar--item--inner ">
-					<div class="navbar--item-border "></div>
-					<div class="item--title " onclick="location.href='menu.html';">
-						menu
+	<div class="main--background">
+		<div class="navbar--container">
+			<div class="navbar--inner-wrapper">
+				<div class=" navbar--item ">
+					<div class="navbar--item--inner ">
+						<div class="navbar--item-border "></div>
+						<div class="item--title " onclick="location.href='menu.html';">
+							menu
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="navbar--item ">
-				<div class="navbar--item--inner ">
-					<div class="navbar--item-border "></div>
-					<div class="item--title" onclick="location.href='faq.html';">
-						f.a.q.
+				<div class="navbar--item ">
+					<div class="navbar--item--inner ">
+						<div class="navbar--item-border "></div>
+						<div class="item--title" onclick="location.href='faq.html';">
+							f.a.q.
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="navbar--middle">
-				<div class="navbar--middle-logo " onclick="location.href='index.html';">
-					<img class="logo " src="images/baked_icon.svg" />
-				</div>
-			</div>
-			<div class="navbar--item ">
-				<div class="navbar--item--inner ">
-					<div class="navbar--item-border "></div>
-					<div class="item--title " onclick="location.href='contact.html';">
-						contact us
+				<div class="navbar--middle">
+					<div class="navbar--middle-logo " onclick="location.href='index.html';">
+						<img class="logo " src="images/baked_icon.svg" />
 					</div>
 				</div>
-			</div>
-			<div class="navbar--item ">
-				<div class="navbar--item--inner ">
-					<div class="navbar--item-border "></div>
-					<div class="item--title ">
-						merch
+				<div class="navbar--item ">
+					<div class="navbar--item--inner ">
+						<div class="navbar--item-border "></div>
+						<div class="item--title " onclick="location.href='contact.html';">
+							contact us
+						</div>
+					</div>
+				</div>
+				<div class="navbar--item ">
+					<div class="navbar--item--inner ">
+						<div class="navbar--item-border "></div>
+						<div class="item--title " onclick="location.href='merch.html';">
+							merch
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div id='contact_wrap'>
-		<iframe
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.332378062474!2d-86.53476768464168!3d39.16716397953002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886c66e7ede1b76f%3A0xfe085963972f4815!2sBaked*21+of+Bloomington!5e0!3m2!1sen!2sus!4v1509981045686"
-			width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-		<div id='contact_info_wrap' class=shadow>
-			<span id='contact_head'>store hours</span>
+		<div class="contact--container">
+			<div class="contact--container-map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.332378062474!2d-86.53476768464168!3d39.16716397953002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886c66e7ede1b76f%3A0xfe085963972f4815!2sBaked*21+of+Bloomington!5e0!3m2!1sen!2sus!4v1509981045686"
+					width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="contact--container-info">
+				<span id='contact_head'>store hours</span>
 
-			<span class='contact_descrip'>
+				<span class='contact_descrip'>
+					<p>
+						Sunday - Wednesday: 9:00AM - 2:00AM</p>
+					<p>Thursday - Saturday: 9:00AM - 4:00AM</p>
+				</span>
+
+				<span class='contact_disc'>** Special times are reserved for holidays, stay tuned for more info!
+					**</span>
 				<p>
-					Sunday - Wednesday: 9:00AM - 2:00AM</p>
-				<p>Thursday - Saturday: 9:00AM - 4:00AM</p>
-			</span>
+				<p><span class="contact_disc">For donations please e-mail donations@bakedofbloomington.com</span></p>
 
-			<span class='contact_disc'>** Special times are reserved for holidays, stay tuned for more info! **</span>
-			<p>
-			<p><span class="contact_disc">For donations please e-mail donations@bakedofbloomington.com</span></p>
+				<a href="tel:812-336-2253">
+					<div class='contact_item' id=phone>
+						<div class='contact_info'>
+							(812)336-BAKE</div>
+					</div>
+				</a>
 
-			<a href="tel:812-336-2253">
-				<div class='contact_item' id=phone>
-					<i class='fa fa-phone fa-2x icon'></i>&nbsp;&nbsp;<span class='contact_info'>(812) 336-BAKE</span>
-				</div>
-			</a>
-
-			<a href="mailto:shop@bakedofbloomington.com">
-				<div class='contact_item'>
-					<i class='fa fa-envelope fa-2x icon'></i>&nbsp;&nbsp;<span
-						class='contact_info'>shop@bakedofbloomington.com</span>
-				</div>
-			</a>
+				<a href="mailto:shop@bakedofbloomington.com">
+					<div class='contact_item'>
+						<div class='contact_info'>shop@bakedofbloomington.com
+						</div>
+					</div>
+				</a>
+				<a href="mailto:shop@bakedofbloomington.com">
+					<div class='contact_item'>
+						<div class='contact_info'>donations@bakedofbloomington.com
+						</div>
+					</div>
+				</a>
+			</div>
 		</div>
 	</div>
 </body>
