@@ -1,0 +1,150 @@
+.menu--info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.menu--info-container{
+    flex:1;
+}
+.menu--info-title{
+    font-family: "Baked";
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 2em;
+}
+.menu--info-body{
+    font-family: "Baked";
+    padding: 2em;
+    font-size: 2em;
+}
+.menu--menu-container{
+    display: flex;
+    flex-direction: column;
+    border-width: 1em;
+    margin: 1em;
+}
+.menu--menu-row{
+    display: flex;
+    padding: 1em;
+}
+.menu--row-header{
+    flex: 1;
+    text-align: left;
+    font-size: 1.75em;
+    text-decoration: underline;
+}
+
+.menu--row-price{
+    text-align: right;
+}
+.menu--menu-item{
+    flex: 1;
+    text-align: left;
+    font-size: 2em;
+    font-family: "Baked";
+    padding:0em .5em 0em;
+    box-shadow: 1px 1px 9px 0px grey;
+    margin: .25em;
+    background-color: white;
+    border-radius: .1em;
+}
+
+.menu--menu-title{
+    flex: 1;
+    text-align: left;
+    font-size: 2em;
+    font-family: "Baked";
+    padding:0em .5em 0em;
+}
+.menu--item-cont{
+    display: flex;
+}
+.menu--item-name{
+    flex: 1;
+    text-align: left;
+}
+.menu--item-price{
+    flex: 1;
+    text-align: right;
+}
+.menu--item-desc{
+    font-family: sans-serif;
+    font-size: .5em;
+}
+.menu--container{
+    display: flex;
+    flex-direction: column;
+}
+.menu--items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.menu--items-steps{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    border-radius: 2em;
+    
+}
+.header--container{
+    display: flex;
+}
+.header--ends{
+    flex: 1;
+}
+.menu--items-header{
+    flex:2;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Baked";
+}
+.menu--items-choice{
+    padding: 2em;
+    font-family: "Baked";
+    
+}
+.items--choice-container{
+    flex: 2;
+    display: flex;
+}
+.items--choice-left{
+    flex: 1;
+
+}
+.items--choice-right{
+    flex: 1;
+}
+.items--choice-dough{
+    flex: 1;
+    padding: .5em;
+    font-size: 2.5em;
+    text-align: center;
+}
+.items--choice-seasonal{
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+}
+.items--choice-container{
+    flex:1;
+    padding: 1em;
+}
+.items--choice-center{
+    flex: 1;
+}
+.items--choice-mixins{
+    flex: 1;
+    padding: .5em;
+    font-size: 2.5em;
+     text-align: center;
+}
+.item--border{
+    border-style: solid;
+    border-radius: 2em;
+    margin: 2em;
+}
